@@ -1,0 +1,49 @@
+.banner {
+    background: var(--corFundo-sec);
+    margin: 1em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.banner__titulo {
+    font-size: 22px;
+}
+
+.banner__container-link {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.banner__link {
+    width: 10%;
+    padding-top: 1em;
+}
+
+.banner__link-imagem {
+    width: 90%;
+}
+
+.sobreMim {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.sobreMim__titulo {
+    padding: 1em;
+    background: var(--corFundo-sec);
+    font-size: 24px;
+}
+
+.sobreMim__texto {
+    margin: 1em;
+}

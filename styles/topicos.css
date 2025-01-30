@@ -1,0 +1,26 @@
+.topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.topicos__titulo {
+    font-size: 24px;
+}
+
+.topicos__container {
+    display: flex;
+    gap: 1em;
+}
+
+.topicos__container-link {
+    text-decoration: none;
+    font-size: 16px;
+    background: var(--corFundo-sec);
+    border-radius: 1em;
+    padding: 0.5em 0.75em;
+    color: black;
+    margin-bottom: 1em;
+}

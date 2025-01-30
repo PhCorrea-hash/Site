@@ -1,0 +1,18 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/main.css");
+@import url("styles/topicos.css");
+@import url("styles/rodape.css");
+
+:root {
+    --corFundo-principal: #121212;
+    --corFundo-sec: #D9B25D;
+
+    --corFonte-destaque: #000000;
+}
+
+body {
+    background: var(--corFundo-principal);
+    color: white;
+    margin: 0;
+}

@@ -1,0 +1,16 @@
+.rodape {
+    background: var(--corFundo-sec);
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.rodape__titulo {
+    color: black;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.lista-menu {
+    display: none;
+}
+

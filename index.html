@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Corrêa</title>
+    <link rel="stylesheet" href="reset.css">
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <!--Faltando Menu Hamburguer-->
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <img class="cabecalho__imagem" src="./imgs/menu-burger.svg" alt="Acesse o menu">
+            <h1 class="cabecalho__titulo">Pedro<b class="cabecalho__titulo-destaque">Corrêa</b></h1>
+        </div>
+        <div class="cabecalho__container-links">
+            <a class="cabecalho__link" href="#">Sobre mim</a>
+            <a class="cabecalho__link" href="#">Meus projetos</a>
+            <a class="cabecalho__link" href="#">Meus cursos</a>
+        </div>
+        <a class="cabecalho__link" href="#" alt="Meu perfil"><img class="cabecalho__imagem-user" src="./imgs/user.svg" alt="Meu perfil"></a>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Entre em contato comigo</h2>
+
+        <div class="banner__container-link">
+            <a class="banner__link" href="https://wa.me/5517997121851">
+                <img class="banner__link-imagem" src="./imgs/WhatsApp.svg" alt="Me mande uam mensagem no whatsapp">
+            </a>
+
+            <a class="banner__link" href="#">
+                <img class="banner__link-imagem" src="./imgs/Instagram.svg" alt="Me mande uam mensagem no whatsapp">
+            </a>
+
+            <a class="banner__link" href="#">
+                <img class="banner__link-imagem" src="./imgs/Email.svg" alt="Me mande uam mensagem no whatsapp">
+            </a>
+        </div>
+    </section>
+
+    <section class="sobreMim">
+        <h2 class="sobreMim__titulo">Sobre mim</h2>
+        <p class="sobreMim__texto">Profissional com experiência em vendas, atendimento ao cliente, administração de redes sociais e gestão administrativa básica. Habilidade em comunicação interpessoal, negociação e resolução de problemas, garantindo um atendimento eficiente e orientado à satisfação do cliente. Experiência na criação e gerenciamento de conteúdos para redes sociais, desenvolvimento de estratégias para engajamento do público e fortalecimento da marca. Conhecimento em processos administrativos, incluindo organização de documentos, controle financeiro básico e suporte operacional. Perfil proativo, dinâmico e com facilidade para trabalhar em equipe, adaptando-se a diferentes demandas com foco em resultados. Atualmente, aprimorando o inglês por meio de curso voltado para comunicação essencial, ampliando a capacidade de interação em diferentes contextos profissionais.</p>
+    </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Projetos Recentes</h2>
+    
+            <div class="carrossel__container">
+            <div class="swiper">
+                
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-wrapper">
+          
+                    <div class="swiper-slide"><img src="./imgs/Desktop-Menu.png" alt="Livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="./imgs/Desktop.png" alt="Livro sobre liderença"></div>
+                    <div class="swiper-slide"><img src="./imgs/FotoOpera.svg" alt="Livro sobre Front-End"></div>
+                    ...
+                </div>
+        
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+      
+            </div>
+            </div>
+            <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+              
+                // If we need pagination
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+              
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              
+                // And if we need scrollbar
+                scrollbar: {
+                  el: '.swiper-scrollbar',
+                },
+              });
+            </script>
+            <div class="carrossel__link-container">
+                <a class="carrossel__link" href="#">Acesse meu portifólio</a>
+            </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">Principais tópicos</h2>
+
+        <div class="topicos__container">
+            <a class="topicos__container-link" href="#">Habilidades</a>
+
+            <a class="topicos__container-link" href="#">Habilidades</a>
+
+            <a class="topicos__container-link" href="#">Habilidades</a>
+        </div>
+
+        <div class="topicos__container">
+            <a class="topicos__container-link" href="#">Habilidades</a>
+
+            <a class="topicos__container-link" href="#">Habilidades</a>
+
+            <a class="topicos__container-link" href="#">Habilidades</a>
+        </div>
+    </section>
+
+    <section class="rodape">
+        <h2 class="rodape__titulo">Pedro Henrique Martins Alves Corrêa</h2>
+
+        <ul class="lista-menu">
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Programação</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Front-End</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Business</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Design e UX</a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
