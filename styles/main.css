@@ -12,7 +12,7 @@
 .swiper {
     width: 80%;
     height: 30%;
-    background-color: white;
+    background-color: var(--corFundo-sec);
     margin-top: 1.5em;
     border-radius: 2em;
 }
