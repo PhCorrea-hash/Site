@@ -11,31 +11,43 @@
     padding-left: 0;
 }
 
-.lista-menu {
+.lista-menu-rodape {
     display: none;
 }
 
 @media screen and (min-width: 1024px) {
     .rodape__titulo {
         font-size: 1.5em;
+        width: 20em;
+        margin-top: 0.5em;
     }
 
-    .lista-menu {
+    .rodape__container {
         display: flex;
         justify-content: right;
+        margin-right: 3em;
+        gap: 4.5em;
+    }
+
+    .lista-menu-rodape {
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
         gap: 2em;
     }
 
-    .lista-menu__item {
+    .lista-menu__item-rodape {
         padding-top: 2em;
         margin-bottom: 1em;
     }
 
-    .lista-menu__link {
+    .lista-menu__link-rodape {
         font-size: 1.5em;
         border-left: 3px solid var(--corFundo-principal);
         padding: 0.5em;
         margin: 0.5em;
+        color: var(--corFundo-principal);
+        text-decoration: none;
     }
 }
 

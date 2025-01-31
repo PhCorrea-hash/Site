@@ -27,7 +27,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 40vw;
+    width: 45vw;
     gap: 1em;
 }
 
@@ -41,7 +41,7 @@
 .lista-menu__item {
     background: var(--corFundo-principal);
     padding: 1em 0;
-    padding-left: 0.25em;
+    padding-left: 0.5em;
 }
 
 .container__botao:checked~.lista-menu {
@@ -55,10 +55,6 @@
     background-clip: text;
     text-transform: uppercase;
     font-size: 0.75;
-}
-
-.lista-menu__link:hover {
-    background: var(--vermelho);
 }
 
 .container__botao {
