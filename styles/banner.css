@@ -49,7 +49,7 @@
 }
 
 .sobreMim__texto-destaque {
-    color: var(--vermelho);
+    color: var(--fonteDestaque);
 }
 
 @media screen and (min-width: 1024px) {

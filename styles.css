@@ -5,15 +5,17 @@
 @import url("styles/rodape.css");
 
 :root {
-    --corFundo-principal: #121212;
-    --corFundo-sec: #D9B25D;
+    
+    --corFundo-principal: #1B1D1F;
+    --corFundo-sec: #8B00FF;
     --vermelho: #F0461A;
+    --fonteDestaque: #3996FF;
 
     --corFonte-destaque: #000000;
 }
 
 body {
-    background: var(--corFundo-principal);
+    background-color: var(--corFundo-principal);
     color: white;
     margin: 0;
 }
