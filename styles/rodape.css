@@ -2,6 +2,7 @@
     background: var(--corFundo-sec);
     padding: 1em;
     margin-top: 2em;
+    flex-direction: row;
 }
 
 .rodape__titulo {
@@ -12,5 +13,29 @@
 
 .lista-menu {
     display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__titulo {
+        font-size: 1.5em;
+    }
+
+    .lista-menu {
+        display: flex;
+        justify-content: right;
+        gap: 2em;
+    }
+
+    .lista-menu__item {
+        padding-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .lista-menu__link {
+        font-size: 1.5em;
+        border-left: 3px solid var(--corFundo-principal);
+        padding: 0.5em;
+        margin: 0.5em;
+    }
 }
 

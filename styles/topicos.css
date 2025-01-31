@@ -24,3 +24,17 @@
     color: black;
     margin-bottom: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 2.75em;
+    }
+
+    .topicos__container {
+        gap: 1.75em;
+    }
+
+    .topicos__container-link {
+        font-size: 1.75em;
+    }
+}

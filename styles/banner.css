@@ -47,3 +47,26 @@
 .sobreMim__texto {
     margin: 1em;
 }
+
+.sobreMim__texto-destaque {
+    color: var(--vermelho);
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 3em;
+    }
+
+    .banner__container-link {
+        gap: 2.5em;
+        margin-top: 1em;
+    }
+
+    .sobreMim__titulo {
+        font-size: 3em;
+    }
+
+    .sobreMim__texto {
+        font-size: 2em;
+    }
+}
