@@ -21,23 +21,33 @@
 }
 
 .topicos__container {
-    border: 0.25em solid var(--corFundo-sec);
+    border: 0.175em solid var(--corFundo-sec);
     display: flex;
+    flex-direction: column;
     gap: 1em;
+    padding: 1em 1em 2em 1em;
+    margin: 0.5em;
+    border-radius: 1em;
 }
 
 .topicos__container-titulo {
     color: var(--corFundo-sec);
+    text-align: center;
+    font-family: var(--fontePrinci);
+    font-weight: 700;
+}
+
+.topicos__container-texto {
+    color: var(--corFundo-sec);
+    text-align: center;
+    font-family: var(--fontePrinci);
+    font-weight: 500;
+    font-size: 0.75em;
 }
 
 .topicos__container-link {
     text-decoration: none;
-    font-size: 16px;
-    background: var(--corFundo-sec);
-    border-radius: 1em;
-    padding: 0.5em 0.75em;
-    color: black;
-    margin-bottom: 1em;
+    text-align: center;
 }
 
 @media screen and (min-width: 1024px) {

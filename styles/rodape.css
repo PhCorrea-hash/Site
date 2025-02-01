@@ -6,9 +6,11 @@
 }
 
 .rodape__titulo {
-    color: black;
+    color: var(--corFonte-destaque);
     margin-left: 0;
     padding-left: 0;
+    font-family: var(--fontePrinci);
+    font-weight: 700;
 }
 
 .lista-menu-rodape {

@@ -14,12 +14,12 @@
     font-family: var(--fontePrinci);
     font-weight: 700;
     padding-top: 0.75em;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .sobreMim__texto {
     margin: 1em;
-    font-size: 0.5em;
+    font-size: 1em;
     color: var(--corFundo-sec);
 }
 

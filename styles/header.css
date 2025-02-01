@@ -41,7 +41,7 @@
 }
 
 .lista-menu__item {
-    background: var(--corFundo-principal);
+    background: rgb(84,9,150);
     padding: 1em 0;
     padding-left: 0.5em;
 }
