@@ -7,12 +7,27 @@
 }
 
 .topicos__titulo {
-    font-size: 24px;
+    font-family: var(--fontePrinci);
+    font-weight: 700;
+    font-size: 1.5em;
+    background: var(--corFundo-sec);
+    padding: 0.5em 3em;
+    border-radius: 1em;
+}
+
+.topicos__container-principal {
+    display: flex;
+    justify-content: space-between;
 }
 
 .topicos__container {
+    border: 0.25em solid var(--corFundo-sec);
     display: flex;
     gap: 1em;
+}
+
+.topicos__container-titulo {
+    color: var(--corFundo-sec);
 }
 
 .topicos__container-link {

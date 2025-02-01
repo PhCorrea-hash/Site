@@ -6,16 +6,19 @@
 
 :root {
     
-    --corFundo-principal: #1B1D1F;
-    --corFundo-sec: #8B00FF;
+    --corFundo-principal: rgb(84,9,150);
+    --corFundo-sec: #FFFFFF;
     --vermelho: #F0461A;
     --fonteDestaque: #3996FF;
 
-    --corFonte-destaque: #000000;
+    --corFonte-destaque: #690189;
+
+    --fontePrinci: 'League Spartan', sans-serif;
 }
 
 body {
-    background-color: var(--corFundo-principal);
+    background: rgb(84,9,150);
+    background: radial-gradient(circle, rgba(84,9,150,1) 0%, rgba(0,0,0,1) 100%);
     color: white;
     margin: 0;
 }

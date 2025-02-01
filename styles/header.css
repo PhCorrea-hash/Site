@@ -4,6 +4,8 @@
     position: relative;
     background: var(--corFundo-sec);
     margin: 0;
+    font-family: var(--fontePrinci);
+    font-weight: 700;
 }
 
 .cabecalho__container {
@@ -15,7 +17,7 @@
 .cabecalho__menu-hamburguer {
     width: 3em;
     height: 3em;
-    background-image: url("../imgs/Menu.svg");
+    background-image: url("../imgs/MenuIcone.svg");
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
