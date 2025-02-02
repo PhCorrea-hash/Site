@@ -52,15 +52,33 @@
 
 @media screen and (min-width: 1024px) {
     .topicos__titulo {
-        font-size: 2.75em;
-        padding: 0.75em;
+        font-size: 3.5em;
+        padding: 0.5em 2.5em;
+    }
+
+    .topicos__container-principal {
+        gap: 1em;
     }
 
     .topicos__container {
         gap: 1.75em;
+        padding: 2em 2em 5em 2em;
+    }
+
+    .topicos__container-titulo {
+        font-size: 2em;
+    }
+
+    .topicos__container-texto {
+        font-size: 1.5em
     }
 
     .topicos__container-link {
         font-size: 1.75em;
+        padding: 0.75em;
+    }
+
+    .topicos__container-imagem {
+        width: 100%;
     }
 }

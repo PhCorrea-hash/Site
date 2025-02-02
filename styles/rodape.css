@@ -19,34 +19,45 @@
 
 @media screen and (min-width: 1024px) {
     .rodape__titulo {
-        font-size: 1.5em;
-        width: 20em;
-        margin-top: 0.5em;
+        display: none;
     }
 
     .rodape__container {
         display: flex;
         justify-content: right;
-        margin-right: 3em;
-        gap: 4.5em;
+        margin-right: 0;
+        gap: 1.5em;
+    }
+
+    .rodape__container-titulo {
+        width: 50%;
+        font-family: var(--fontePrinci);
+        font-weight: 600;
+        font-size: 2em;
+        margin-top: 1em;
+        color: var(--corFonte-destaque);
     }
 
     .lista-menu-rodape {
+        width: 25%;
         display: flex;
         justify-content: right;
         flex-direction: column;
-        gap: 2em;
+        gap: 1em;
     }
 
     .lista-menu__item-rodape {
+        display: flex;
         padding-top: 2em;
         margin-bottom: 1em;
     }
 
     .lista-menu__link-rodape {
+        font-family: var(--fontePrinci);
         font-size: 1.5em;
+        font-weight: 500;
         border-left: 3px solid var(--corFundo-principal);
-        padding: 0.5em;
+        padding: 0.25em;
         margin: 0.5em;
         color: var(--corFundo-principal);
         text-decoration: none;

@@ -92,8 +92,9 @@
 
 @media screen and (min-width: 1024px) {
     .cabecalho__menu-hamburguer {
-        width: 3em;
-        height: 3em;
+        width: 7em;
+        height: 7em;
+        background-image: url("../imgs/Menu-Tablet.svg");
     }
 
     .cabecalho__imagem {
@@ -115,15 +116,15 @@
     }
 
     .lista-menu{
-        width: 30vw;
+        width: 50vw;
     }
     
     .lista-menu__titulo {
-        font-size: 2em;
+        font-size: 4em;
     }
 
     .lista-menu__link {
-        font-size: 1.5em;
+        font-size: 2.5em;
         margin-left: 0.75em;
     }
 }
