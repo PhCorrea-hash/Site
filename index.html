@@ -55,16 +55,7 @@
     </header>
 
     <section class="sobreMim">
-        <h2 class="sobreMim__titulo">Sobre mim</h2>
-        <p class="sobreMim__texto">Profissional com <b class="sobreMim__texto-destaque">Experiência em vendas, atendimento ao cliente, administração de redes sociais e gestão administrativa básica.</b> Habilidade em comunicação interpessoal, negociação e resolução de problemas, garantindo um atendimento eficiente e orientado à satisfação do cliente. Experiência na <b class="sobreMim__texto-destaque">criação e gerenciamento de conteúdos para redes sociais, desenvolvimento de estratégias para engajamento do público e fortalecimento da marca</b>. Conhecimento em processos administrativos, incluindo organização de documentos, controle financeiro básico e suporte operacional.</p>
-    </section>
-
-    <hr class="linha">
-
-        <section class="carrossel">
-            <h2 class="carrossel__titulo">Projetos Recentes</h2>
-    
-            <div class="carrossel__container">
+        <div class="carrossel__container computador">
             <div class="swiper">
                 
                 <div class="swiper-pagination"></div>
@@ -82,6 +73,72 @@
         
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+
+                <div class="carrossel__link-container computador">
+                    <a class="carrossel__link computador" href="#"><img class="carrossel__imagem" src="./imgs/PortifolioIcon.svg" alt="Acesse meu portifolio"></a>
+                </div>
+      
+            </div>
+            </div>
+            <script>
+            const swiperr = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+              
+                // If we need pagination
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+              
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              
+                // And if we need scrollbar
+                scrollbar: {
+                  el: '.swiper-scrollbar',
+                },
+              });
+            </script>
+            <div class="sobreMim__descricao-container">
+               <div class="sobreMim__descricao">
+                  <h2 class="sobreMim__titulo">Sobre mim</h2>
+                  <p class="sobreMim__texto">Profissional com <b class="sobreMim__texto-destaque">Experiência em vendas, atendimento ao cliente, administração de redes sociais e gestão administrativa básica.</b> Habilidade em comunicação interpessoal, negociação e resolução de problemas, garantindo um atendimento eficiente e orientado à satisfação do cliente. Experiência na <b class="sobreMim__texto-destaque">criação e gerenciamento de conteúdos para redes sociais, desenvolvimento de estratégias para engajamento do público e fortalecimento da marca</b>. Conhecimento em processos administrativos, incluindo organização de documentos, controle financeiro básico e suporte operacional.</p>
+               </div>
+               <div class="projetos-recentes computador">
+                  <h2 class="projetos-recentes__titulo">Meus Projetos Recentes</h2>
+                  <p class="projetos-recentes__texto"></p>
+               </div>
+               
+            </div> 
+    </section>
+
+    <hr class="linha">
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo celular">Projetos Recentes</h2>
+    
+            <div class="carrossel__container celular">
+            <div class="swiper">
+                
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-wrapper">
+          
+                    <div class="swiper-slide"><img src="./imgs/swiper/row-1-column-1.png" alt="Livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="./imgs/swiper/row-1-column-2.png" alt="Livro sobre liderença"></div>
+                    <div class="swiper-slide"><img src="./imgs/swiper/row-1-column-3.png" alt="Livro sobre Front-End"></div>
+                    <div class="swiper-slide"><img src="./imgs/swiper/row-1-column-4.png" alt="Livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="./imgs/swiper/row-1-column-5.png" alt="Livro sobre liderença"></div>
+                    <div class="swiper-slide"><img src="./imgs/swiper/row-1-column-6.png" alt="Livro sobre Front-End"></div>
+                    ...
+                </div>
+        
+                <div class="swiper-button-prev arrow-left"></div>
+                <div class="swiper-button-next arrow-right"></div>
       
             </div>
             </div>
@@ -108,8 +165,8 @@
                 },
               });
             </script>
-            <div class="carrossel__link-container">
-                <a class="carrossel__link" href="#"><img class="carrossel__imagem" src="./imgs/PortifolioIcon.svg" alt="Acesse meu portifolio"></a>
+            <div class="carrossel__link-container celular">
+                <a class="carrossel__link celular" href="#"><img class="carrossel__imagem" src="./imgs/PortifolioIcon.svg" alt="Acesse meu portifolio"></a>
             </div>
     </section>
 

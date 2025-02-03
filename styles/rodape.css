@@ -13,6 +13,10 @@
     font-weight: 700;
 }
 
+.rodape__container-titulo {
+    display: none;
+}
+
 .lista-menu-rodape {
     display: none;
 }
@@ -30,6 +34,7 @@
     }
 
     .rodape__container-titulo {
+        display: block;
         width: 50%;
         font-family: var(--fontePrinci);
         font-weight: 600;

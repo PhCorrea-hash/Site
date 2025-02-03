@@ -11,6 +11,7 @@
     --corFundo-sec: #FFFFFF;
     --vermelho: #F0461A;
     --fonteDestaque: #3996FF;
+    --degrade: radial-gradient(circle, rgba(84,9,150,1) 0%, rgba(0,0,0,1) 100%);
 
     --corFonte-destaque: #690189;
 

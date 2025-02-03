@@ -102,3 +102,57 @@
 
 }
 
+@media screen and (min-width: 1720px) {
+.carrossel {
+    background-image: none;
+}
+
+.computador {
+    display: block;
+}
+
+.celular {
+    display: none;
+}
+
+.sobreMim {
+    border: none;
+    flex-direction: row;
+    width: 98%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel__container {
+    width: 35%;
+    border-radius: 1em;
+}
+
+.carrossel__link-container {
+    margin: 0;
+}
+
+.carrossel__link {
+    font-size: 2em;
+    margin-top: 0.75em;
+    padding: 0;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel__imagem {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 1em 0.5em 0;
+}
+
+}
