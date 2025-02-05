@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1440px) {
     .sobreMim__descricao-container {
         display: flex;
         flex-direction: column;
