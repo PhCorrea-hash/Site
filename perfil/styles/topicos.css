@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: var(--fontePrinci);
   }
   
   .topicos__lista {
@@ -21,16 +20,7 @@
     width: 100%;
     list-style-type: none;
     padding: 0;
-  }
-
-  .lista__titulo {
-    text-align: center;
-    font-size: 2em;
-    font-weight: 700;
-  }
-
-  .lista__texto {
-    margin-top: 0.5em;
+    gap: 1em;
   }
   
   #button__resumo {
@@ -38,13 +28,7 @@
     border: 2px solid #fff;
     color: #fff;
     border-radius: 1em;
-    font-size: 1.5em;
-    font-weight: 600;
-    margin: 0 0.5em 0 0.5em;
-    background-image: url("../imgs/Arrow.png");
-    background-repeat: no-repeat;
-    justify-content: space-between;
-    padding: 0 2em;
+    padding: 1em 7em;
   }
   
   #button__resumo:hover {
@@ -56,10 +40,120 @@
     flex-direction: column;
   }
   
-  .lista__itens {
+  .lista__itens-resumo {
     border: 2px solid #fff;
     border-radius: 1em;
-    margin: 0.25em 1em 1em 1em;
+    margin: 0.25em 0 1em 0;
     padding: 1em;
     display: none;
   }
+  
+  #button__habilidades {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1em;
+    border-radius: 1em;
+    padding: 1em 7em;  
+  }
+  
+  #lista_container_habilidades {
+    display: none;
+    flex-direction: column;
+  }
+  
+  #lista__itens-habilidades {
+    border: 2px solid #fff;
+    border-radius: 1em;
+    margin: 0.25em 0 1em 0;
+    padding: 1em;
+    display: none;
+  }
+  
+  #button__experiencias {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1em;
+    border-radius: 1em;
+    padding: 1em 7em;  
+  }
+  
+  #lista_container_experiencias {
+    display: none;
+    flex-direction: column;
+  }
+  
+  #lista__itens-experiencias {
+    border: 2px solid #fff;
+    border-radius: 1em;
+    margin: 0.25em 0 1em 0;
+    padding: 1em;
+    display: none;
+  }
+  
+  #button__formacao {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1em;
+    border-radius: 1em;
+    padding: 1em 7em;  
+  }
+  #lista__itens-formacao {
+    border: 2px solid #fff;
+    border-radius: 1em;
+    margin: 0.25em 0 1em 0;
+    padding: 1em;
+    display: none;
+  }
+  
+  #lista_container_formacao {
+    display: none;
+    flex-direction: column;
+  }
+  
+  #button__cursos {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1em;
+    border-radius: 1em;
+    padding: 1em 7em;  
+  }
+  
+  #lista_container_cursos {
+    display: none;
+    flex-direction: column;
+  }
+  
+  #lista__itens-cursos {
+    border: 2px solid #fff;
+    border-radius: 1em;
+    margin: 0.25em 0 1em 0;
+    padding: 1em;
+    display: none;
+  }
+  
+  #button__certificados {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1em;
+    border-radius: 1em;
+    padding: 1em 7em;  
+  }
+  
+  #lista_container_certificados {
+    display: none;
+    flex-direction: column;
+  }
+  
+  #lista__itens-certificados {
+    border: 2px solid #fff;
+    border-radius: 1em;
+    margin: 0.25em 0 1em 0;
+    padding: 1em;
+    display: none;
+  }
+  

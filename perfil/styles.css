@@ -1,6 +1,7 @@
 @import url("styles/topicos.css");
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/contato.css");
 
 :root {
     --corFundo-sec: #FFFFFF;
@@ -15,4 +16,5 @@ body {
     background: rgb(84,9,150);
     background: radial-gradient(circle, rgba(84,9,150,1) 0%, rgba(0,0,0,1) 100%);
     color: #FFFFFF;
+    font-family: var(--fontePrinci);
 }

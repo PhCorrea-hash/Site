@@ -8,6 +8,66 @@
     font-weight: 700;
 }
 
+.cabecalho__container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 3em;
+    height: 3em;
+    background-image: url("../imgs/MenuIcone.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 45vw;
+    gap: 1em;
+}
+
+.lista-menu__titulo {
+    background: var(--corFundo-sec);
+    text-align: center;
+    padding: 0.25em;
+    font-size: 1.25em;
+}
+
+.lista-menu__item {
+    background: rgb(84,9,150);
+    padding: 1em 0;
+    padding-left: 0.5em;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__link {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: 0.75;
+}
+
+.container__botao {
+    display: none;
+}
+
+.cabecalho__imagem {
+    margin-left: 0.5em;
+    width: 100%;
+}
+
 .cabecalho__titulo {
     width: 20%;
     font-size: 1.75em;

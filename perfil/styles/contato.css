@@ -1,0 +1,42 @@
+.contato {
+    border: 5px solid #fff;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 2em;
+    align-items: center;
+  }
+  
+  .contato__link {
+    text-decoration: none;
+    padding: 0.25em 4em;
+    background: #fff;
+    color: #000;
+    margin: 0.5em;
+    border-radius: 1em;
+  }
+  
+  .portifolio {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .portifolio__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 2em;
+    margin: 0 1em;
+    border: 2.5px solid #fff;
+    border-radius: 1em;
+  }
+
+  .rodape {
+    background: #fff;
+    margin-top: 1em;
+    padding: 1em 0;
+  }
+
+  .rodape__titulo {
+    color: #000;
+  }
+  

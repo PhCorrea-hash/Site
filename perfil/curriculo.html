@@ -12,54 +12,135 @@
     <script src="script.js"></script>
 </head>
 <body>
-          <header class="cabecalho">
-            <h1 class="cabecalho__titulo">PedroCorrea</h1>
-          </header>
-          
-          <section class="banner">
-            <h2 class="banner__titulo">Bem vindo(a) ao meu perfil profissional</h2>
-            <p class="banner__texto">Aqui voce vai encontrar todas as informacoes sobre meu perfil profissional, como minhas experiencias, habilidades e formacaoo academica!</p>
-          </section>
-          
-          <sectioin class="topicos">
-      <label for="menu" class="topicos__container">
-        <span class="topicos__container-menu"></span>
-      </label>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="./perfil/curriculo.html" class="lista-menu__link">Sobre mim</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Habilidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Experiências</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Acadêmico</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Cursos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Portifólio</a>
+                </li>
+            </ul>
+            <h1 class="cabecalho__titulo">Pedro<b class="cabecalho__titulo-destaque">Corrêa</b></h1>
+        </div>
+        <div class="cabecalho__container-links">
+            <a class="cabecalho__link" href="#">Sobre mim</a>
+            <a class="cabecalho__link" href="#">Meus projetos</a>
+            <a class="cabecalho__link" href="#">Meus cursos</a>
+        </div>
+        <a class="cabecalho__link" href="#" alt="Meu perfil"><img class="cabecalho__imagem-user" src="./imgs/PerfilIcon.svg" alt="Meu perfil"></a>
+    </header>
       
-      <ul class="topicos__lista">
-        <ul class="lista__content">
-            <button onclick = "resumo()" id="button__resumo">
-              meu resumo
-            </button>
-            <li id="lista__itens" class="lista__itens">
-            <div id="lista_container_resumo">
-              <h2 class="lista__titulo">Resumo Profissional</h2>
-              <p class="lista__texto">Profissional com Experiência em vendas, atendimento ao cliente, administração de redes sociais e gestão administrativa básica. Habilidade em comunicação interpessoal, negociação e resolução de problemas, garantindo um atendimento eficiente e orientado à satisfação do cliente. Experiência na criação e gerenciamento de conteúdos para redes sociais, desenvolvimento de estratégias para engajamento do público e fortalecimento da marca. Conhecimento em processos administrativos, incluindo organização de documentos, controle financeiro básico e suporte operacional.</p>
-            </div>
-          </li>
-          
-          <button onclick="habilidades()">
-              Minhas Habilidades
-            </button>
-            <li class="lista__itens">
-            <div class="lista_container_resumo">
-              <h2 class="lista__titulo">Habilidades</h2>
-              <p class="lista__texto">Aqui estao as minhas principais habilidades</p>
-            </div>
-          </li>
-          
-          <button onclick="experiencias()">
-              Minhas Experiencias
-            </button>
-            <li class="lista__itens">
-            <div class="lista_container_resumo">
-              <h2 class="lista__titulo">Experiencias</h2>
-              <p class="lista__texto">Confira a minha trajetoria profissional</p>
-            </div>
-          </li>
-        </ul>
-      </ul>
-    </sectioin>
+      <section class="banner">
+        <h2 class="banner__titulo">Bem vindo(a) ao meu perfil profissional</h2>
+        <p class="banner__texto">Aqui voce vai encontrar todas as informacoes sobre meu perfil profissional, como minhas experiencias, habilidades e formacaoo academica!</p>
+      </section>
+      
+      <sectioin class="topicos">
+  <label for="menu" class="topicos__container">
+    <span class="topicos__container-menu"></span>
+  </label>
+  
+  <ul class="topicos__lista">
+    <ul class="lista__content">
+        <button onclick = "resumo()" id="button__resumo">
+          Resumo Profissional
+        </button>
+        <li id="lista_itens-resumo">
+        <div id="lista_container_resumo">
+          <h2 class="lista__titulo">Meu Resumo</h2>
+          <p class="lista__texto">Aqui esta meu resumo profissional</p>
+        </div>
+      </li>
+      
+      <button onclick="habilidades()" id="button__habilidades">
+          Habilidades e Competencias
+        </button>
+        <li id="lista__itens-habilidades">
+        <div id="lista_container_habilidades">
+          <h2 class="lista__titulo">Habilidades</h2>
+          <p class="lista__texto">Aqui estao as minhas principais habilidades</p>
+        </div>
+      </li>
+      
+      <button onclick="experiencias()" id="button__experiencias">
+          Minhas Experiencias
+        </button>
+        <li id="lista__itens-experiencias">
+        <div id="lista_container_experiencias">
+          <h2 class="lista__titulo">Experiencias</h2>
+          <p class="lista__texto">Confira a minha trajetoria profissional</p>
+        </div>
+      </li>
+      
+      <button onclick="formacao()" id="button__formacao">
+          Formacao Academica
+        </button>
+        <li id="lista__itens-formacao">
+        <div id="lista_container_formacao">
+          <h2 class="lista__titulo">Formacoes</h2>
+          <p class="lista__texto">Confira a minha trajetoria profissional</p>
+        </div>
+      </li>
+      
+      <button onclick="cursos()" id="button__cursos">
+          Meus Cursos
+        </button>
+        <li id="lista__itens-cursos">
+        <div id="lista_container_cursos">
+          <h2 class="lista__titulo">Cursos</h2>
+          <p class="lista__texto">Confira a minha trajetoria profissional</p>
+        </div>
+      </li>
+      
+      <button onclick="certificados()" id="button__certificados">
+          Meus Certificados
+        </button>
+        <li id="lista__itens-certificados">
+        <div id="lista_container_certificados">
+          <h2 class="lista__titulo">Certificados</h2>
+          <p class="lista__texto">Confira a minha trajetoria profissional</p>
+        </div>
+      </li>
+    </ul>
+  </ul>
+</sectioin>
+
+<section class="contato">
+  <a class="contato__link" href="#">WhatsApp</a>
+  
+  <a class="contato__link" href="#">E-Mail</a>
+  
+  <a class="contato__link" href="#">Instagram</a>
+</section>
+
+<section class="portifolio">
+  <a class="portifolio__link" href="#">Meu Portifolio</a>
+  
+  <a class="portifolio__link" href="#">Meu Currículo</a>
+</section>
+
+<footer class="rodape">
+  <h2 class="rodape__titulo">Pedro Henrique Correa</h2>
+</footer>
       </body>
     </html>
 
