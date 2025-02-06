@@ -1,76 +1,65 @@
 .topicos {
     display: flex;
-    justify-content: center;
-    font-family: var(--fontePrinci);
-}
-
-.cabecalho__container {
-    width: 90%;
-    display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.container__botao {
-    margin-left: 1em;
-    background-image: url("../imgs/Resumo.svg");
-    width: 100%;
-    text-decoration: none;
-    appearance: none;
-}
-
-.container__rotulo {
+    font-family: var(--fontePrinci);
+  }
+  
+  .topicos__lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista__button {
     display: flex;
-}
+  }
+  
+  .lista__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+  }
 
-.cabecalho__menu-hamburguer {
-    width: 20em;
-    height: 3em;
-    background-image: url("../imgs/Resumo.svg");
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-}
-
-.lista-menu {
-    display: none;
-    position: relative;
-    top: 0;
-    width: 45vw;
-    gap: 1em;
-}
-
-.lista-menu__titulo {
-    background: transparent;
-    padding: 0.25em;
+  .lista__titulo {
+    text-align: center;
     font-size: 2em;
     font-weight: 700;
-    text-align: center;
-}
+  }
 
-.lista-menu__item {
-    background: rgb(84,9,150);
-    padding: 1em 0;
-    padding-left: 0.5em;
-}
-
-.container__botao:checked~.lista-menu {
-    display: block;
-}
-
-.resumo .lista-menu__texto {
-    font-size: 1.5em;
-}
-
-.resumo {
-    width: 90%;
-    border: 2px solid var(--corFundo-sec);
+  .lista__texto {
+    margin-top: 0.5em;
+  }
+  
+  #button__resumo {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
     border-radius: 1em;
-    margin: 0;
-}
-
-.lista__resumo {
-    margin: 1em;
-}
-
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0.5em 0 0.5em;
+    background-image: url("../imgs/Arrow.png");
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding: 0 2em;
+  }
+  
+  #button__resumo:hover {
+    background: #000;
+  }
+  
+  #lista_container_resumo {
+    display: none;
+    flex-direction: column;
+  }
+  
+  .lista__itens {
+    border: 2px solid #fff;
+    border-radius: 1em;
+    margin: 0.25em 1em 1em 1em;
+    padding: 1em;
+    display: none;
+  }

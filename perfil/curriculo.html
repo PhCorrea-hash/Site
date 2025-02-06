@@ -8,164 +8,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-
-   <header class="cabecalho">
-      <div class="cabecalho__container">
-          <h1 class="cabecalho__titulo">Pedro<b class="cabecalho__titulo-destaque">Corrêa</b></h1>
-      </div>
-      <div class="cabecalho__container-links">
-          <a class="cabecalho__link" href="#">Sobre mim</a>
-          <a class="cabecalho__link" href="#">Meus projetos</a>
-          <a class="cabecalho__link" href="#">Meus cursos</a>
-      </div>
-      <a class="cabecalho__link" href="#" alt="Meu perfil"><img class="cabecalho__imagem-user" src="./imgs/PerfilIcon.svg" alt="Meu perfil"></a>
-  </header>
-
-    <section class="banner">
-        <h2>Bem vindo(a) ao meu perfil profissional/acadêmico</h2>
-        <p>Aqui você vai encontrar todas as informações sobre meu perfil profissional, como minhas experiências, habilidades e formação acadêmica!</p>
-     </section>
-
-     <section class="topicos">
-
-
-      <div class="cabecalho__container">
-     <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" class="container__rotulo">
-               <span class="cabecalho__menu-hamburguer container__imagem"></span>
-            </label>
-         
-     
-     <ul class="lista-menu resumo">
-      <div class="lista__resumo">
-        <li class="lista-menu__titulo">Resumo</li>
-        <li class="lista-menu__texto">Profissional com Experiência em vendas, atendimento ao cliente, administração de redes sociais e gestão administrativa básica. Habilidade em comunicação interpessoal, negociação e resolução de problemas, garantindo um atendimento eficiente e orientado à satisfação do cliente. Experiência na criação e gerenciamento de conteúdos para redes sociais, desenvolvimento de estratégias para engajamento do público e fortalecimento da marca. Conhecimento em processos administrativos, incluindo organização de documentos, controle financeiro básico e suporte operacional.</li>
-      </div>
+          <header class="cabecalho">
+            <h1 class="cabecalho__titulo">PedroCorrea</h1>
+          </header>
+          
+          <section class="banner">
+            <h2 class="banner__titulo">Bem vindo(a) ao meu perfil profissional</h2>
+            <p class="banner__texto">Aqui voce vai encontrar todas as informacoes sobre meu perfil profissional, como minhas experiencias, habilidades e formacaoo academica!</p>
+          </section>
+          
+          <sectioin class="topicos">
+      <label for="menu" class="topicos__container">
+        <span class="topicos__container-menu"></span>
+      </label>
+      
+      <ul class="topicos__lista">
+        <ul class="lista__content">
+            <button onclick = "resumo()" id="button__resumo">
+              meu resumo
+            </button>
+            <li id="lista__itens" class="lista__itens">
+            <div id="lista_container_resumo">
+              <h2 class="lista__titulo">Resumo Profissional</h2>
+              <p class="lista__texto">Profissional com Experiência em vendas, atendimento ao cliente, administração de redes sociais e gestão administrativa básica. Habilidade em comunicação interpessoal, negociação e resolução de problemas, garantindo um atendimento eficiente e orientado à satisfação do cliente. Experiência na criação e gerenciamento de conteúdos para redes sociais, desenvolvimento de estratégias para engajamento do público e fortalecimento da marca. Conhecimento em processos administrativos, incluindo organização de documentos, controle financeiro básico e suporte operacional.</p>
+            </div>
+          </li>
+          
+          <button onclick="habilidades()">
+              Minhas Habilidades
+            </button>
+            <li class="lista__itens">
+            <div class="lista_container_resumo">
+              <h2 class="lista__titulo">Habilidades</h2>
+              <p class="lista__texto">Aqui estao as minhas principais habilidades</p>
+            </div>
+          </li>
+          
+          <button onclick="experiencias()">
+              Minhas Experiencias
+            </button>
+            <li class="lista__itens">
+            <div class="lista_container_resumo">
+              <h2 class="lista__titulo">Experiencias</h2>
+              <p class="lista__texto">Confira a minha trajetoria profissional</p>
+            </div>
+          </li>
+        </ul>
       </ul>
-      <span></span>
-     
-     <ul class="habilidades">
-        <li>
-               <div class="habilidades__content">
-                       <section class="content__habilidades">
-                                   <h3></h3>
-                                   <p></p>
-                       </section>
-     
-                       <section class="content__compTec">
-                                   <h3></h3>
-                                   <p></p>
-                       </section>
-     
-                       <section class="content__compPes">
-                                   <h3></h3>
-                                   <p></p>
-                       </section>
-               </div>
-        </li>
-     </ul>
-     
-     <ul class="experiencias">
-        <li>
-               <div class="experiencias__content">
-                       <section class="content__emprego">
-                                   <h3>VNDS</h3>
-                                   <div>
-                                        <p></p>
-                                        <img>
-                                   </div>
-                       </section>
-     
-                       <section class="content__emprego">
-                                   <h3>VNDS</h3>
-                                   <div>
-                                        <p></p>
-                                        <img>
-                                   </div>
-                       </section>
-     
-                       <section class="content__emprego">
-                                   <h3>VNDS</h3>
-                                   <div>
-                                        <p></p>
-                                        <img>
-                                   </div>
-                       </section>
-               </div>
-        </li>
-     </ul>
-     
-     <ul class: "formacao">
-        <li>
-               <div class: "formacao__content">
-                       <section class: "content__academico">
-                                   <h3></h3>
-                                   <div>
-                                        <p></p>
-                                        <img>
-                                   </div>
-                       </section>
-     
-                       <section class: "content__academico">
-                                   <h3></h3>
-                                   <div>
-                                        <p></p>
-                                        <img>
-                                   </div>
-                       </section>
-     
-                       <section class: "content__academico">
-                                   <h3></h3>
-                                   <div>
-                                        <p></p>
-                                        <img>
-                                   </div>
-                       </section>
-               </div>
-        </li>
-     </ul>
-     
-     <ul class: "cursos">
-        <li></li>
-     </ul>
-     
-     <ul class: "certificados">
-        <li></li>
-     </ul>
-     
-     <ul class: "idiomas">
-        <li></li>
-     </ul>
+    </sectioin>
+      </body>
+    </html>
 
-     
-   </div>
-   </section>
-     
-     <div class: "contato">
-        <a href:""></a>
-     
-        <a href:""></a>
-     
-        <a href:""></a>
-     </div>
-     
-     <div class: "formal">
-        <a href:""></a>
-     
-        <a href:""></a>
-     </div>
-     
-     <section class="redes">
-        <a>LinkedIn<img></a>
-     
-        <a>GitHub<img></a>
-      </section>
-     
-     <section class: "rodape">
-     
-     </section>
 </body>
 </html>
