@@ -8,7 +8,7 @@ setInterval(function () {
 
 function resumo() {
   document.getElementById('lista_container_resumo').style.display = 'flex';
-  document.getElementById('lista__itens-resumo').style.display = 'block'
+  document.getElementById('lista_itens-resumo').style.display = 'block'
 }
 
 function habilidades() {

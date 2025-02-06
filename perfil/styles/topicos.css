@@ -21,18 +21,17 @@
     list-style-type: none;
     padding: 0;
     gap: 1em;
+    font-weight: 700;
   }
-  
+
   #button__resumo {
     background-color: transparent;
     border: 2px solid #fff;
     color: #fff;
     border-radius: 1em;
-    padding: 1em 7em;
-  }
-  
-  #button__resumo:hover {
-    background: #000;
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: 700;
   }
   
   #lista_container_resumo {
@@ -40,7 +39,7 @@
     flex-direction: column;
   }
   
-  .lista__itens-resumo {
+  #lista_itens-resumo {
     border: 2px solid #fff;
     border-radius: 1em;
     margin: 0.25em 0 1em 0;
@@ -53,8 +52,9 @@
     border: 2px solid #fff;
     color: #fff;
     border-radius: 1em;
-    border-radius: 1em;
-    padding: 1em 7em;  
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: 700;  
   }
   
   #lista_container_habilidades {
@@ -76,7 +76,9 @@
     color: #fff;
     border-radius: 1em;
     border-radius: 1em;
-    padding: 1em 7em;  
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: 700;  
   }
   
   #lista_container_experiencias {
@@ -98,7 +100,9 @@
     color: #fff;
     border-radius: 1em;
     border-radius: 1em;
-    padding: 1em 7em;  
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: 700;  
   }
   #lista__itens-formacao {
     border: 2px solid #fff;
@@ -119,7 +123,9 @@
     color: #fff;
     border-radius: 1em;
     border-radius: 1em;
-    padding: 1em 7em;  
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: 700;  
   }
   
   #lista_container_cursos {
@@ -141,7 +147,9 @@
     color: #fff;
     border-radius: 1em;
     border-radius: 1em;
-    padding: 1em 7em;  
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: 700;  
   }
   
   #lista_container_certificados {
