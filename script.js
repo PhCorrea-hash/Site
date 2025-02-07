@@ -1,1 +1,1 @@
-alert ("Site ainda em fase de desenvolvimento; versões para tablet e computador ainda não estão finalizadas");
+alert ("Site descontinuado, acesse a versão mais recente e organizada: https://my-site-three-coral.vercel.app");
